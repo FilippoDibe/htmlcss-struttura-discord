@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+/* header  */
+header{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(14, 14, 176);
+    
+}
+.nav_container{
+    display: flex;
+    justify-content: center;
+    /* debug */
+    height: 5vh;
+    background-color: rgb(109, 212, 252);
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    /* debug */
+    height: 2.5vh;
+    width: 80%;
+    /* margin:auto; */
+    background-color: rgb(255, 210, 75);
+    
+}
+.logo_head{
+    display: flex;
+    justify-content: start;
+    border-style: dashed ;
+
+}
+ul, li {
+    display: flex;
+    justify-content: center;
+    padding: 0 8px;
+
+}
+.login{
+    display: flex;
+    justify-content: end;
+   
+
+}
+
+.logo_head, .link_head, .login{
+    width: calc(100% / 3);
+    border-style: dashed ;
+
+}
+.header_main{
+    display: flex;
+    justify-content: center;
+    /* debug */
+    height: 80%;
+    width: 60%;
+    margin:auto; 
+    margin-top: 20px;
+    background-color: rgb(222, 47, 225);
+    border-style: dashed ;
+}
+/* MAIN  */
+.row, .container{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.text{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(2, 190, 253);
+    display: flex;
+    align-self: center;
+    border: dashed ;
+}
+.img{
+    height: 80%;
+    width: 30%;
+    background-color: pink;
+    display: flex;
+    align-self: center;
+    border: dashed ;
+
+}
+.main_footer{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.fine{
+    height: 80%;
+    width: 80%;
+    background-color: green;
+    display: flex;
+    align-self: center;
+    border: dashed ;
+}
+main .container:nth-child(2), main .main_footer {
+    background-color: rgb(209, 209, 209);
+}
+/* footer  */
+.footer_main{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.fine_footer{
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: solid 1px white;
+}
+.block_main{
+    height: 80%;
+    width: 27%;
+    background-color: palevioletred;
+    display: flex;
+    align-self: center;
+    border: dashed ;
+}
+.block{
+    height: 80%;
+    width: 13%;
+    background-color: rgb(8, 157, 107);
+    border: dashed ;
+    display: flex;
+    align-self: center;
+}
+.end{
+    height: 4vh;
+    width: 80%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_footer, .bottone_footer{
+    background-color: pink;
+    height: 2.5vh;
+    width: auto;
+    border: dashed ;
+}
